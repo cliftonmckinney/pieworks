@@ -1,0 +1,140 @@
+/* RESET */
+/* ----------------------------------------- */
+
+*, html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, label, fieldset, input, p, blockquote, th, td { margin:0; padding:0 }
+table { border-collapse:collapse; border-spacing:0 }
+fieldset, img { border:0 }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal }
+ol, ul, li { list-style:none }
+caption, th { text-align:left }
+h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:normal; font-family: Open Sans, Tahoma, Arial, sans-serif; }
+q:before, q:after { content:''}
+
+/* Global reset-RESET */
+/* The below restores some sensible defaults */
+strong { font-weight:bold }
+em { font-style:italic }
+a img { border:none } /* Gets rid of IE's blue borders */
+
+.fl { float: left; }
+.fr { float: right; }
+.cb { clear: both; }
+
+.last { padding: 0 !important; margin-right: 0 !important;}
+
+
+/* MASTER */
+/* ----------------------------------------- */
+/*********** General Sections ***********/
+
+body { font-family: Open Sans, Tahoma, Arial, sans-serif; font-size: 13px; font-weight: normal;  color: #333333; }
+
+h1 { margin-bottom: 10px; color: #ffffff; font-size: 40px;   font-weight: 700; line-height: 30px; text-transform: uppercase; }
+h2 { margin-bottom: 10px; color: #474747; font-size: 30px;  font-weight: 700; line-height: 30px; text-transform: uppercase; }
+h3 { margin-bottom: 10px; color: #474747; font-size: 21px; font-weight: 400; font-family: Oswald, Open Sans, Tahoma, Arial, sans-serif; }
+h4 { margin: 0 0 15px 0; color: #474747; font-size: 18px; font-weight: 400; line-height: 20px; }
+
+.centerContainer { width: 900px; margin: 0 auto; }
+
+/* ----------------------------------------- */
+/*********** Header Container ***********/
+
+#headerContainer { width: 100%; height: 100%; position: fixed; background: #ffffff url('../images/bg.jpg') center top no-repeat; z-index: -9999; }
+#headerContainer p { margin-bottom: 20px; color: #ffffff; font-size: 20px; font-weight: 600; line-height: 30px; font-family: Open Sans, Tahoma, Arial, sans-serif; text-shadow: 1px 1px #333333; }
+.logoContainer { margin: 100px 0 50px 0; text-align: center; }
+.getStarted{ width: 680px; margin: 0 auto; text-align: center; }
+.secondary-nav { float: right; padding-top: 30px; padding-right: 30px; }
+.secondary-nav li { float: left; }
+.secondary-nav li a { color: #fff; text-decoration: none; text-transform: uppercase; font-weight: 700; padding: 0 10px; font-size: 16px; border-right: 1px solid rgba(255,255,255,0.25); -webkit-transition: all .3s ; -moz-transition: all .3s ; -ms-transition: all .3s ; -o-transition: all .3s ; transition: all .3s ; }
+.secondary-nav li:last-child a { border: none; }
+.secondary-nav li a:hover { color: #66cc33; }
+
+/* ----------------------------------------- */
+
+/*********** Static Header Container ***********/
+
+#headerContainerstatic { width: 100%; position: fixed; background: #777777 center top no-repeat; z-index: 1; height: 130px}
+#headerContainerstatic p { margin-bottom: 20px; color: #ffffff; font-size: 20px; font-weight: 600; line-height: 30px; font-family: Open Sans, Tahoma, Arial, sans-serif; text-shadow: 1px 1px #333333; }
+.logoContainerstatic { padding-top: 30px; padding-left: 150px; }
+.secondary-nav { float: right; padding-top: 30px; padding-right: 30px; }
+.secondary-nav li { float: left; }
+.secondary-nav li a { color: #fff; text-decoration: none; text-transform: uppercase; font-weight: 700; padding: 0 10px; font-size: 16px; border-right: 1px solid rgba(255,255,255,0.25); -webkit-transition: all .3s ; -moz-transition: all .3s ; -ms-transition: all .3s ; -o-transition: all .3s ; transition: all .3s ; }
+.secondary-nav li:last-child a { border: none; }
+.secondary-nav li a:hover { color: #66cc33; }
+/*********** Page Container ***********/
+
+#pageContainer { width: 100%; margin-top: 579px; position: absolute;  }
+#pageContainer2 { width: 100%; margin: 0 auto; background-color: #ffffff; border-top: 4px solid #aaaaaa; box-shadow: 0 5px 5px #454545; }
+.oneColumn { width: 255px; margin-top: 80px; padding-right: 60px; text-align: center; float: left; }
+.oneColumn p { padding: 0 20px; color: #7a7a7a; font-size: 16px; font-weight: 400; font-family: Open Sans, Tahoma, Arial, sans-serif; line-height: 22px; }
+
+/* ----------------------------------------- */
+/*********** Testimonials Container ***********/
+
+#bigTitle { margin-top: 80px; padding: 60px 0; background-color: #272727; text-align: center; }
+#bigTitle p { padding: 10px 0 20px 0; width: 600px; margin: 0 auto; color: #ffffff; font-size: 16px; font-weight: 400;  font-family: Open Sans, Tahoma, Arial, sans-serif; }
+
+/* ----------------------------------------- */
+/*********** About Us Container ***********/
+
+#aboutUsContainer {  padding: 200px 0px 0px 0px; } 
+#aboutColumnText { width: 900px; display: block;}
+#aboutColumnText p { color: #7a7a7a; font-size: 15px; font-weight: 400; font-family: Open Sans, Tahoma, Arial, sans-serif; line-height: 22px; }
+#aboutColumnText li { color: #7a7a7a; font-size: 15px; font-weight: bold; font-family: Open Sans, Tahoma, Arial, sans-serif; line-height: 22px; }
+
+/* ----------------------------------------- */
+
+/*********** Overview Container ***********/
+
+#overviewContainer {  height: 1000px; padding: 200px 0px 0px 0px; } 
+
+/* ----------------------------------------- */
+
+/*********** The Team ***********/
+
+#team { margin: 40px; display: block;}
+.col { width: 210px; float: left; margin: 0 20px 20px 0; background-color: #f5f5f5; }
+.col2 { width: 440px; float: left; margin: 0 20px 20px 0; background-color: #f5f5f5; }
+.name { margin-top: 10px; font-size: 16px; color: #474747; text-align: center; }
+.office { font-size: 12px; color: #8d8d8d; text-align: center; font-style:italic; }
+.info { margin-top: 5px; padding: 5px 15px; font-size: 13px; color: #474747; text-align: center; }
+.tweeter { margin-top: 15px; padding-bottom: 15px; text-align: center;}
+.tweet img { margin-right: 5px; text-align: center;}
+.tweeter a{ margin-top: 5px; font-size: 12px; color: #00b0f0; text-align: center; text-decoration: none; }
+.tweeter a:hover { margin-top: 5px; font-size: 12px; color: #00b0f0; text-align: center; text-decoration: underline; }
+
+/* ----------------------------------------- */
+/*********** Gallery Container ***********/
+
+#galleryContainer { padding: 20px 0px 20px 0px; background-color: #ffffff; }
+#galleryContainer h3 { color: #ffffff; }
+.images { display: inline-block; background-color: #ffffff; }
+.image { width: 210px; height: 105px; float: left; margin: 0 20px 20px 0; background-color: #272727; }
+
+/* ----------------------------------------- */
+/*********** Contact Container ***********/
+
+#contactContainer { height: 60px; padding: 30px 0; background-color: #66cc33; text-align: center; color: #ffffff; font-size: 16px; font-weight: 400; font-family: Open Sans, Tahoma, Arial, sans-serif; line-height: 20px; }
+
+/* ----------------------------------------- */
+
+/*********** Contact Container2 ***********/
+
+#contactContainer2 { padding: 200px 0 0 0; height: 1000px; text-align: center; color: #ffffff; font-size: 16px; font-weight: 400; font-family: Open Sans, Tahoma, Arial, sans-serif; line-height: 20px; }
+
+/* ----------------------------------------- */
+
+/*********** Footer Container ***********/
+
+#footer { padding: 18px 0; background-color: #272727; text-align: center; color: #d0d0d0; font-size: 12px; font-weight: 300; font-family: Open Sans, Tahoma, Arial, sans-serif; }
+
+/* ----------------------------------------- */
+/*********** Elements ***********/
+
+.simple_link { color: #66cc33; text-decoration: none; }
+.simple_link:hover{ color: #272727; text-decoration: underline; }
+.background_link { background-color: #ff0048; color: #ffffff; text-decoration: none; padding: 0 5px; }
+
+/*********** Buttons ***********/
+.read_more_button { padding: 7px 18px; margin: 10px 10px 10px 0; display: inline-block; color: #ffffff; text-decoration: none; background-color: #ff0048;  }
+.read_more_button:hover { background-color: #272727; }
