@@ -36,6 +36,8 @@ h4 { margin: 0 0 15px 0; color: #474747; font-size: 18px; font-weight: 400; line
 
 .centerContainer { width: 900px; margin: 0 auto; }
 
+.arrow-down { width: 0; height: 0; border-left: 30px solid transparent; border-right: 30px solid transparent; border-top: 30px solid #aaaaaa; position: relative; top: 0px; margin: 0 auto; }
+
 /* ----------------------------------------- */
 /*********** Header Container ***********/
 
@@ -65,7 +67,7 @@ h4 { margin: 0 0 15px 0; color: #474747; font-size: 18px; font-weight: 400; line
 
 /*********** Page Container ***********/
 
-#pageContainer { width: 100%; margin-top: 579px; position: absolute;  }
+#pageContainer { width: 100%; margin-top: 630px; position: absolute;  }
 #pageContainer2 { width: 100%; margin: 0 auto; background-color: #ffffff; border-top: 4px solid #aaaaaa; box-shadow: 0 5px 5px #454545; }
 .oneColumn { width: 255px; margin-top: 80px; padding-right: 60px; text-align: center; float: left; }
 .oneColumn p { padding: 0 20px; color: #7a7a7a; font-size: 16px; font-weight: 400; font-family: Open Sans, Tahoma, Arial, sans-serif; line-height: 22px; }
